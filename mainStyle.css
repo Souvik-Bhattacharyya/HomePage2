@@ -896,6 +896,20 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
     text-align: center;
 }
 
+#faculty .card {
+    width: 350px;
+}
+
+#faculty .swiper {
+    height: 500px;
+}
+
+#faculty .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #faculty .card-cont {
     display: flex;
     justify-content: center;
@@ -1257,6 +1271,14 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
         flex-direction: column;
     }
 
+    #faculty{
+        padding: 50px 0;
+    }
+
+    #faculty .head{
+        margin-bottom: 0;
+    }
+
     #faculty .head h1 {
         font-size: 22px;
     }
@@ -1314,7 +1336,7 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
         height: 100%;
     }
 
-    .nav-ul:hover{
+    .nav-ul:hover {
         overflow: scroll;
     }
 

@@ -21,6 +21,33 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
+var swiper = new Swiper(".facultySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    centeredSlides: false,
+    slidesPerGroupSkip: 1,
+    grabCursor: true,
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+    },
+});
+
 const hamburger = document.querySelector(".hamburger");
 const navUl = document.querySelector(".nav-ul");
 const list = document.querySelectorAll(".nav-list");
