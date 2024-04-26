@@ -1271,11 +1271,11 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
         flex-direction: column;
     }
 
-    #faculty{
+    #faculty {
         padding: 50px 0;
     }
 
-    #faculty .head{
+    #faculty .head {
         margin-bottom: 0;
     }
 
@@ -1331,18 +1331,21 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
         padding: 10px 5%;
     }
 
-    .nav-ul {
-        overflow: hidden;
-        height: 100%;
+    .logo {
+        width: 10%;
     }
 
-    .nav-ul:hover {
-        overflow: scroll;
+    .nav-ul {
+        height: 100%;
     }
 
     .nav-ul .nav-list {
         padding-right: 20px;
         text-wrap: nowrap;
+    }
+
+    .nav-ul .nav-list .nav-link {
+        font-size: 14px;
     }
 
     #home {
